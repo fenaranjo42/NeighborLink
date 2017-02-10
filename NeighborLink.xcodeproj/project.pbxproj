@@ -13,6 +13,7 @@
 		558AD4381E4D6FDC00E36FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4371E4D6FDC00E36FFA /* Assets.xcassets */; };
 		558AD43B1E4D6FDC00E36FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4391E4D6FDC00E36FFA /* LaunchScreen.storyboard */; };
 		558AD4461E4D6FDC00E36FFA /* NeighborLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4451E4D6FDC00E36FFA /* NeighborLinkTests.swift */; };
+		558AD4521E4D72C500E36FFA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4511E4D72C500E36FFA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		558AD4411E4D6FDC00E36FFA /* NeighborLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighborLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AD4451E4D6FDC00E36FFA /* NeighborLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborLinkTests.swift; sourceTree = "<group>"; };
 		558AD4471E4D6FDC00E36FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		558AD4511E4D72C500E36FFA /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,8 @@
 		558AD42F1E4D6FDC00E36FFA /* NeighborLink */ = {
 			isa = PBXGroup;
 			children = (
+				558AD4531E4D779A00E36FFA /* Login */,
+				558AD4501E4D72B700E36FFA /* Configurations */,
 				558AD4301E4D6FDC00E36FFA /* AppDelegate.swift */,
 				558AD4321E4D6FDC00E36FFA /* MainViewController.swift */,
 				558AD4341E4D6FDC00E36FFA /* Main.storyboard */,
@@ -94,6 +98,21 @@
 				558AD4471E4D6FDC00E36FFA /* Info.plist */,
 			);
 			path = NeighborLinkTests;
+			sourceTree = "<group>";
+		};
+		558AD4501E4D72B700E36FFA /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				558AD4511E4D72C500E36FFA /* Theme.swift */,
+			);
+			name = Configurations;
+			sourceTree = "<group>";
+		};
+		558AD4531E4D779A00E36FFA /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558AD4521E4D72C500E36FFA /* Theme.swift in Sources */,
 				558AD4331E4D6FDC00E36FFA /* MainViewController.swift in Sources */,
 				558AD4311E4D6FDC00E36FFA /* AppDelegate.swift in Sources */,
 			);
@@ -410,6 +430,7 @@
 				558AD44C1E4D6FDC00E36FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		558AD44D1E4D6FDC00E36FFA /* Build configuration list for PBXNativeTarget "NeighborLinkTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +439,7 @@
 				558AD44F1E4D6FDC00E36FFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
