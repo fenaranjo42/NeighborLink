@@ -12,8 +12,11 @@
 		558AD4361E4D6FDC00E36FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4341E4D6FDC00E36FFA /* Main.storyboard */; };
 		558AD4381E4D6FDC00E36FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4371E4D6FDC00E36FFA /* Assets.xcassets */; };
 		558AD43B1E4D6FDC00E36FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4391E4D6FDC00E36FFA /* LaunchScreen.storyboard */; };
-		558AD4461E4D6FDC00E36FFA /* NeighborLinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4451E4D6FDC00E36FFA /* NeighborLinkTests.swift */; };
 		558AD4521E4D72C500E36FFA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4511E4D72C500E36FFA /* Theme.swift */; };
+		558AD4551E4FB40300E36FFA /* ThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4541E4FB40300E36FFA /* ThemeTests.swift */; };
+		558AD4571E4FB50700E36FFA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4561E4FB50700E36FFA /* Login.storyboard */; };
+		558AD4591E4FB52100E36FFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4581E4FB52100E36FFA /* LoginViewController.swift */; };
+		558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,12 @@
 		558AD43A1E4D6FDC00E36FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		558AD43C1E4D6FDC00E36FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558AD4411E4D6FDC00E36FFA /* NeighborLinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeighborLinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		558AD4451E4D6FDC00E36FFA /* NeighborLinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeighborLinkTests.swift; sourceTree = "<group>"; };
 		558AD4471E4D6FDC00E36FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		558AD4511E4D72C500E36FFA /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		558AD4541E4FB40300E36FFA /* ThemeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeTests.swift; sourceTree = "<group>"; };
+		558AD4561E4FB50700E36FFA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		558AD4581E4FB52100E36FFA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,8 @@
 		558AD4441E4D6FDC00E36FFA /* NeighborLinkTests */ = {
 			isa = PBXGroup;
 			children = (
-				558AD4451E4D6FDC00E36FFA /* NeighborLinkTests.swift */,
 				558AD4471E4D6FDC00E36FFA /* Info.plist */,
+				558AD4541E4FB40300E36FFA /* ThemeTests.swift */,
 			);
 			path = NeighborLinkTests;
 			sourceTree = "<group>";
@@ -111,6 +117,9 @@
 		558AD4531E4D779A00E36FFA /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				558AD4561E4FB50700E36FFA /* Login.storyboard */,
+				558AD4581E4FB52100E36FFA /* LoginViewController.swift */,
+				558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */,
 			);
 			name = Login;
 			sourceTree = "<group>";
@@ -171,6 +180,7 @@
 					558AD4401E4D6FDC00E36FFA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = J5FQP62JU5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 558AD42C1E4D6FDC00E36FFA;
 					};
@@ -200,6 +210,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558AD4571E4FB50700E36FFA /* Login.storyboard in Resources */,
 				558AD43B1E4D6FDC00E36FFA /* LaunchScreen.storyboard in Resources */,
 				558AD4381E4D6FDC00E36FFA /* Assets.xcassets in Resources */,
 				558AD4361E4D6FDC00E36FFA /* Main.storyboard in Resources */,
@@ -220,8 +231,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558AD4591E4FB52100E36FFA /* LoginViewController.swift in Sources */,
 				558AD4521E4D72C500E36FFA /* Theme.swift in Sources */,
 				558AD4331E4D6FDC00E36FFA /* MainViewController.swift in Sources */,
+				558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */,
 				558AD4311E4D6FDC00E36FFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				558AD4461E4D6FDC00E36FFA /* NeighborLinkTests.swift in Sources */,
+				558AD4551E4FB40300E36FFA /* ThemeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,11 +399,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J5FQP62JU5;
 				INFOPLIST_FILE = NeighborLinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Naranjo.NeighborLinkTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeighborLink.app/NeighborLink";
 			};
@@ -401,6 +416,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = J5FQP62JU5;
 				INFOPLIST_FILE = NeighborLinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

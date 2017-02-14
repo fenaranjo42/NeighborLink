@@ -13,6 +13,8 @@ class Theme {
     let lightGreen = UIColor(hex: 0x5aca5c)
     let gradientContrastLightGreen = UIColor(hex: 0x6FFF71)
     let charcoal = UIColor(hex: 0x2f2f2f)
+    let lightBlue = UIColor(hex: 0x05B8E6)
+    
 }
 
 extension UIColor {
