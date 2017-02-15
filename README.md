@@ -3,6 +3,9 @@ iOS application to bring people living nearby closer together
 
 NeighborLink's Trello board: https://trello.com/b/jRwU99ab/neighborlink
 
+NeighborLink's Design Screens on Invision: https://projects.invisionapp.com/d/main#/projects/prototypes/10300046/screens
+(I am designing them myself and am not very good at it, if you have any advice or want to collaborate, let me know!)
+
 # Updating Dependencies with Carthage
 Note: Carthage not set up yet
 
