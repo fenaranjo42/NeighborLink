@@ -390,14 +390,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = J5FQP62JU5;
 				INFOPLIST_FILE = NeighborLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ab12ca21-2515-463c-a4bb-dff72b907748";
-				PROVISIONING_PROFILE_SPECIFIER = NeighborLink;
+				PROVISIONING_PROFILE = "7e159725-2f83-45cd-a442-7aa334899ad5";
+				PROVISIONING_PROFILE_SPECIFIER = "NeighborLink-Distribution";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
