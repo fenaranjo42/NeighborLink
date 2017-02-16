@@ -175,7 +175,7 @@
 					558AD42C1E4D6FDC00E36FFA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = J5FQP62JU5;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					558AD4401E4D6FDC00E36FFA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -298,8 +298,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Felipe Naranjo (58T549L9V7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Felipe Naranjo (58T549L9V7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -348,8 +348,8 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Felipe Naranjo (58T549L9V7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Felipe Naranjo (58T549L9V7)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -380,8 +380,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "875f71f0-7b8e-470b-81dc-df690b1756b7";
+				PROVISIONING_PROFILE_SPECIFIER = "NeighborLink-Dev-Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -396,8 +396,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "875f71f0-7b8e-470b-81dc-df690b1756b7";
+				PROVISIONING_PROFILE_SPECIFIER = "NeighborLink-Dev-Profile";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
