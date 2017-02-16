@@ -175,7 +175,7 @@
 					558AD42C1E4D6FDC00E36FFA = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = J5FQP62JU5;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 					558AD4401E4D6FDC00E36FFA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -378,8 +378,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "875f71f0-7b8e-470b-81dc-df690b1756b7";
-				PROVISIONING_PROFILE_SPECIFIER = "NeighborLink-Dev-Profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -394,8 +394,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "875f71f0-7b8e-470b-81dc-df690b1756b7";
-				PROVISIONING_PROFILE_SPECIFIER = "NeighborLink-Dev-Profile";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
