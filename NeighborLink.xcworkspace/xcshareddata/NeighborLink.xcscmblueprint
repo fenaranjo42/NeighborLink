@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "958DF709D9E4EEB49BB889B566775302059CD6F5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D9C9885794001CA8C43F289197A6AEFDF62C0FFB" : 9223372036854775807,
+    "958DF709D9E4EEB49BB889B566775302059CD6F5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5B7AA2B8-EC7A-4A6A-8931-926D717FF914",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D9C9885794001CA8C43F289197A6AEFDF62C0FFB" : "Authentication\/",
+    "958DF709D9E4EEB49BB889B566775302059CD6F5" : "NeighborLink\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "NeighborLink",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NeighborLink.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fenaranjo42\/NeighborLink.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "958DF709D9E4EEB49BB889B566775302059CD6F5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fenaranjo42\/Authentication.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D9C9885794001CA8C43F289197A6AEFDF62C0FFB"
+    }
+  ]
+}

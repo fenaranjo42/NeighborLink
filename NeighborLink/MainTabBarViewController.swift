@@ -8,18 +8,19 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class MainTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         let storyboard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
         if let loginViewController = storyboard.instantiateViewController(withIdentifier: "Login") as? LoginViewController {
-            self.present(loginViewController, animated: true, completion: nil)
+//            self.tabBarController?.present(loginViewController, animated: true, completion: nil)
+            self.navigationController?.present(loginViewController, animated: false, completion: nil)
         }
         
     }
-
+ 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
