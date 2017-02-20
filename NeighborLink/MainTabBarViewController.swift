@@ -15,7 +15,6 @@ class MainTabBarViewController: UITabBarController {
         // Do any additional setup after loading the view, typically from a nib.
         let storyboard: UIStoryboard = UIStoryboard(name: "Login", bundle: nil)
         if let loginViewController = storyboard.instantiateViewController(withIdentifier: "Login") as? LoginViewController {
-//            self.tabBarController?.present(loginViewController, animated: true, completion: nil)
             self.navigationController?.present(loginViewController, animated: false, completion: nil)
         }
         
