@@ -17,6 +17,8 @@
 		558AD4571E4FB50700E36FFA /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4561E4FB50700E36FFA /* Login.storyboard */; };
 		558AD4591E4FB52100E36FFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4581E4FB52100E36FFA /* LoginViewController.swift */; };
 		558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */; };
+		5598B1121E65212500694B0D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5598B1111E65212500694B0D /* Alamofire.framework */; };
+		5598B1141E65212A00694B0D /* Authentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5598B1131E65212A00694B0D /* Authentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		558AD4561E4FB50700E36FFA /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		558AD4581E4FB52100E36FFA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5598B1111E65212500694B0D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		5598B1131E65212A00694B0D /* Authentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Authentication.framework; path = "Carthage/Checkouts/Authentication/build/Debug-iphoneos/Authentication.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5598B1141E65212A00694B0D /* Authentication.framework in Frameworks */,
+				5598B1121E65212500694B0D /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +76,7 @@
 				558AD42F1E4D6FDC00E36FFA /* NeighborLink */,
 				558AD4441E4D6FDC00E36FFA /* NeighborLinkTests */,
 				558AD42E1E4D6FDC00E36FFA /* Products */,
+				5598B1101E65212500694B0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +129,15 @@
 				558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */,
 			);
 			name = Login;
+			sourceTree = "<group>";
+		};
+		5598B1101E65212500694B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5598B1131E65212A00694B0D /* Authentication.framework */,
+				5598B1111E65212500694B0D /* Alamofire.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +393,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J5FQP62JU5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Authentication/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NeighborLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
@@ -394,6 +415,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J5FQP62JU5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Alamofire/build/Debug-iphoneos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Authentication/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = NeighborLink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.urbanaapps.NeighborLink;
