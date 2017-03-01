@@ -1,15 +1,17 @@
 //
-//  PostCell.swift
+//  PostsTableViewCell.swift
 //  NeighborLink
 //
-//  Created by Felipe Naranjo on 2/26/17.
+//  Created by Felipe Naranjo on 2/28/17.
 //  Copyright © 2017 Felipe Naranjo. All rights reserved.
 //
 
 import UIKit
 
-class PostCell: UITableViewCell {
+class PostsTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var postView: PostView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
