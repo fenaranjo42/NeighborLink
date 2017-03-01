@@ -19,6 +19,10 @@
 		558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */; };
 		5598B1121E65212500694B0D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5598B1111E65212500694B0D /* Alamofire.framework */; };
 		5598B1141E65212A00694B0D /* Authentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5598B1131E65212A00694B0D /* Authentication.framework */; };
+		5598B11B1E665EBF00694B0D /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B1171E665EBF00694B0D /* PostCell.swift */; };
+		5598B11C1E665EBF00694B0D /* PostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5598B1181E665EBF00694B0D /* PostCell.xib */; };
+		5598B11D1E665EBF00694B0D /* Posts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5598B1191E665EBF00694B0D /* Posts.storyboard */; };
+		5598B11E1E665EBF00694B0D /* PostsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B11A1E665EBF00694B0D /* PostsFeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		558AD45A1E4FB53000E36FFA /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		5598B1111E65212500694B0D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Carthage/Checkouts/Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
 		5598B1131E65212A00694B0D /* Authentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Authentication.framework; path = "Carthage/Checkouts/Authentication/build/Debug-iphoneos/Authentication.framework"; sourceTree = "<group>"; };
+		5598B1171E665EBF00694B0D /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		5598B1181E665EBF00694B0D /* PostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostCell.xib; sourceTree = "<group>"; };
+		5598B1191E665EBF00694B0D /* Posts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Posts.storyboard; sourceTree = "<group>"; };
+		5598B11A1E665EBF00694B0D /* PostsFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsFeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +100,7 @@
 		558AD42F1E4D6FDC00E36FFA /* NeighborLink */ = {
 			isa = PBXGroup;
 			children = (
+				5598B1161E665E9D00694B0D /* Feed */,
 				558AD4531E4D779A00E36FFA /* Login */,
 				558AD4501E4D72B700E36FFA /* Configurations */,
 				558AD4301E4D6FDC00E36FFA /* AppDelegate.swift */,
@@ -138,6 +147,17 @@
 				5598B1111E65212500694B0D /* Alamofire.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5598B1161E665E9D00694B0D /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				5598B1171E665EBF00694B0D /* PostCell.swift */,
+				5598B1181E665EBF00694B0D /* PostCell.xib */,
+				5598B1191E665EBF00694B0D /* Posts.storyboard */,
+				5598B11A1E665EBF00694B0D /* PostsFeedViewController.swift */,
+			);
+			name = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,8 +246,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5598B11D1E665EBF00694B0D /* Posts.storyboard in Resources */,
 				558AD4571E4FB50700E36FFA /* Login.storyboard in Resources */,
 				558AD43B1E4D6FDC00E36FFA /* LaunchScreen.storyboard in Resources */,
+				5598B11C1E665EBF00694B0D /* PostCell.xib in Resources */,
 				558AD4381E4D6FDC00E36FFA /* Assets.xcassets in Resources */,
 				558AD4361E4D6FDC00E36FFA /* Main.storyboard in Resources */,
 			);
@@ -249,9 +271,11 @@
 			files = (
 				558AD4591E4FB52100E36FFA /* LoginViewController.swift in Sources */,
 				558AD4521E4D72C500E36FFA /* Theme.swift in Sources */,
+				5598B11E1E665EBF00694B0D /* PostsFeedViewController.swift in Sources */,
 				558AD4331E4D6FDC00E36FFA /* MainTabBarViewController.swift in Sources */,
 				558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */,
 				558AD4311E4D6FDC00E36FFA /* AppDelegate.swift in Sources */,
+				5598B11B1E665EBF00694B0D /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

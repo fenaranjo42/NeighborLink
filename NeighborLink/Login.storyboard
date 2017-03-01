@@ -76,6 +76,9 @@
                                         <integer key="value" value="5"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onLoginButtonTapped:" destination="oxq-fJ-tKM" eventType="touchUpInside" id="f03-z6-I5W"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="NSx-ju-l7H">
                                 <rect key="frame" x="16" y="106" width="288" height="128"/>
