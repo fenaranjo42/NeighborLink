@@ -9,6 +9,7 @@
 import UIKit
 
 class PostsTableView: UITableView {
+    
 
     override var contentSize: CGSize {
         didSet {
