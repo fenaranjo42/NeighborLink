@@ -17,7 +17,9 @@ class MainTabBarViewController: UITabBarController {
         // Set up tab bar controllers
         var viewControllers: [UIViewController] = []
         let postsVc = UIStoryboard(name: "Posts", bundle: nil).instantiateInitialViewController()
+        let profileVc = UIStoryboard(name: "Profile", bundle: nil).instantiateInitialViewController()
         viewControllers.append(postsVc!)
+        viewControllers.append(profileVc!)
         self.viewControllers = viewControllers
         
         

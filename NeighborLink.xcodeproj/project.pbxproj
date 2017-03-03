@@ -26,6 +26,9 @@
 		5598B1231E66678B00694B0D /* PostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5598B1221E66678B00694B0D /* PostView.xib */; };
 		5598B1261E666D2F00694B0D /* PostsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B1251E666D2F00694B0D /* PostsTableView.swift */; };
 		5598B1281E666DC600694B0D /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B1271E666DC600694B0D /* PostsTableViewCell.swift */; };
+		5598B1341E690F7800694B0D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B1331E690F7800694B0D /* ProfileViewController.swift */; };
+		5598B1361E690F8800694B0D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5598B1351E690F8800694B0D /* ProfileViewModel.swift */; };
+		5598B1381E690F9100694B0D /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5598B1371E690F9000694B0D /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		5598B1221E66678B00694B0D /* PostView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostView.xib; sourceTree = "<group>"; };
 		5598B1251E666D2F00694B0D /* PostsTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableView.swift; sourceTree = "<group>"; };
 		5598B1271E666DC600694B0D /* PostsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		5598B1331E690F7800694B0D /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5598B1351E690F8800694B0D /* ProfileViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		5598B1371E690F9000694B0D /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 		558AD42F1E4D6FDC00E36FFA /* NeighborLink */ = {
 			isa = PBXGroup;
 			children = (
+				5598B1321E690F5400694B0D /* Profile */,
 				5598B11F1E66641000694B0D /* Extensions */,
 				5598B1161E665E9D00694B0D /* Feed */,
 				558AD4531E4D779A00E36FFA /* Login */,
@@ -183,6 +190,16 @@
 				5598B1221E66678B00694B0D /* PostView.xib */,
 			);
 			name = "Custom Controls";
+			sourceTree = "<group>";
+		};
+		5598B1321E690F5400694B0D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5598B1331E690F7800694B0D /* ProfileViewController.swift */,
+				5598B1351E690F8800694B0D /* ProfileViewModel.swift */,
+				5598B1371E690F9000694B0D /* Profile.storyboard */,
+			);
+			name = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +293,7 @@
 				558AD4571E4FB50700E36FFA /* Login.storyboard in Resources */,
 				558AD43B1E4D6FDC00E36FFA /* LaunchScreen.storyboard in Resources */,
 				558AD4381E4D6FDC00E36FFA /* Assets.xcassets in Resources */,
+				5598B1381E690F9100694B0D /* Profile.storyboard in Resources */,
 				558AD4361E4D6FDC00E36FFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +318,8 @@
 				5598B1261E666D2F00694B0D /* PostsTableView.swift in Sources */,
 				5598B11E1E665EBF00694B0D /* PostsFeedViewController.swift in Sources */,
 				558AD4331E4D6FDC00E36FFA /* MainTabBarViewController.swift in Sources */,
+				5598B1361E690F8800694B0D /* ProfileViewModel.swift in Sources */,
+				5598B1341E690F7800694B0D /* ProfileViewController.swift in Sources */,
 				558AD45B1E4FB53000E36FFA /* LoginViewModel.swift in Sources */,
 				5598B1281E666DC600694B0D /* PostsTableViewCell.swift in Sources */,
 				558AD4311E4D6FDC00E36FFA /* AppDelegate.swift in Sources */,
