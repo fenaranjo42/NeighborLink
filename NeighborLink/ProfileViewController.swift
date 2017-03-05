@@ -10,10 +10,11 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var profileImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        configureView()
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,4 +33,8 @@ class ProfileViewController: UIViewController {
     }
     */
 
+    private func configureView() {
+        profileImage.applyRoundedStyle()
+       // profileImage.applyWhiteBorder()
+    }
 }

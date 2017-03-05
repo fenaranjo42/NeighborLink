@@ -42,4 +42,8 @@ class PostsFeedViewController: UIViewController, UITableViewDelegate, UITableVie
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostsTableViewCell", for: indexPath) as! PostsTableViewCell
         return cell
     }
+    
+    private func configureView() {
+        
+    }
 }
