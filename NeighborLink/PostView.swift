@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PostView: UIView {
+class PostView: UIView, NibLoadableView {
     
     @IBOutlet var contentView: UIView!
     @IBOutlet weak var profileImage: UIImageView!
@@ -28,7 +28,7 @@ class PostView: UIView {
     }
 
     func commonInit() {
-        let nib = UINib(nibName: "PostView", bundle: nil)
+        let nib = UINib(nibName: PostView.nibName, bundle: nil)
         nib.instantiate(withOwner: self, options: nil)
         addSubview(contentView)
         setupLayouts(contentView: contentView)

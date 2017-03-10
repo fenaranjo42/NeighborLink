@@ -35,6 +35,5 @@ class ProfileViewController: UIViewController {
 
     private func configureView() {
         profileImage.applyRoundedStyle()
-       // profileImage.applyWhiteBorder()
     }
 }

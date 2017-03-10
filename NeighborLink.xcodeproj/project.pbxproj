@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		550149761E7263340096124A /* ReusableViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550149751E7263340096124A /* ReusableViewHelper.swift */; };
 		558AD4311E4D6FDC00E36FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4301E4D6FDC00E36FFA /* AppDelegate.swift */; };
 		558AD4331E4D6FDC00E36FFA /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558AD4321E4D6FDC00E36FFA /* MainTabBarViewController.swift */; };
 		558AD4361E4D6FDC00E36FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AD4341E4D6FDC00E36FFA /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		550149751E7263340096124A /* ReusableViewHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableViewHelper.swift; sourceTree = "<group>"; };
 		558AD42D1E4D6FDC00E36FFA /* NeighborLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeighborLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		558AD4301E4D6FDC00E36FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558AD4321E4D6FDC00E36FFA /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		550149741E72631A0096124A /* UIHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				550149751E7263340096124A /* ReusableViewHelper.swift */,
+			);
+			name = UIHelpers;
+			sourceTree = "<group>";
+		};
 		558AD4241E4D6FDC00E36FFA = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		558AD42F1E4D6FDC00E36FFA /* NeighborLink */ = {
 			isa = PBXGroup;
 			children = (
+				550149741E72631A0096124A /* UIHelpers */,
 				5598B1321E690F5400694B0D /* Profile */,
 				5598B11F1E66641000694B0D /* Extensions */,
 				5598B1161E665E9D00694B0D /* Feed */,
@@ -312,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				550149761E7263340096124A /* ReusableViewHelper.swift in Sources */,
 				5598B1211E66642500694B0D /* UIView+Layout.swift in Sources */,
 				558AD4591E4FB52100E36FFA /* LoginViewController.swift in Sources */,
 				558AD4521E4D72C500E36FFA /* Theme.swift in Sources */,

@@ -35,15 +35,15 @@ class PostsFeedViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return 5
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "PostsTableViewCell", for: indexPath) as! PostsTableViewCell
+        let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as PostsTableViewCell
         return cell
     }
     
-    private func configureView() {
-        
+    private func configureTableView() {
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: PostsTableViewCell.reuseIdentifier)
     }
 }
