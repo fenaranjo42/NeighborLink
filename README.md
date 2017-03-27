@@ -1,7 +1,7 @@
 # NeighborLink
 iOS application to bring people living nearby closer together
 
-![Alt text](~/Desktop/Login.png?raw=true "Login")
+![Screenshot](Screenshots/Login.png?raw=true "Login")
 
 NeighborLink's Trello board: https://trello.com/b/jRwU99ab/neighborlink
 
