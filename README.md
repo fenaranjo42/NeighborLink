@@ -1,6 +1,8 @@
 # NeighborLink
 iOS application to bring people living nearby closer together
 
+![Alt text](/Users/felipe/DesktopLogin.png?raw=true "Login")
+
 NeighborLink's Trello board: https://trello.com/b/jRwU99ab/neighborlink
 
 NeighborLink's Design Screens on Invision: https://projects.invisionapp.com/d/main#/projects/prototypes/10300046/screens
