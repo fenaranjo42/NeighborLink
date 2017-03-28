@@ -73,7 +73,6 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dgJ-HM-O0H"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
                         <outlet property="headerHeightConstraint" destination="7xb-qi-bcv" id="cVO-ry-4TJ"/>
                         <outlet property="imageView" destination="2Bx-ad-BSU" id="Zdd-yh-ZxN"/>
@@ -88,10 +87,10 @@
         <!--Profile-->
         <scene sceneID="jbV-h0-UnT">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="nzw-NV-dZb" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="nzw-NV-dZb" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" tag="1" title="Profile" image="profile_icon" id="WyX-4o-21I"/>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="Xle-cP-j4o">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Xle-cP-j4o">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>

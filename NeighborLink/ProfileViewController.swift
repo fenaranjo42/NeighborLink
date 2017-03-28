@@ -50,9 +50,10 @@ class ProfileViewController: UIViewController {
         imageView.clipsToBounds = true
         tableView.delegate = self
         tableView.dataSource = self
+        navigationController?.navigationBar.applyStyle()
     }
     
-    }
+}
 
 extension ProfileViewController {
     func setScrollPosition(_ position: CGFloat) {

@@ -14,6 +14,8 @@ class PostsFeedViewController: UIViewController, UITableViewDelegate, UITableVie
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureView()
 
         tableView.delegate = self
         tableView.dataSource = self
@@ -41,6 +43,10 @@ class PostsFeedViewController: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as PostsTableViewCell
         return cell
+    }
+    
+    private func configureView() {
+        navigationController?.navigationBar.applyStyle()
     }
     
     private func configureTableView() {

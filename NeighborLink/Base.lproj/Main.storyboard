@@ -12,9 +12,10 @@
         <!--Navigation Controller-->
         <scene sceneID="DTq-wQ-IBB">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tee-Up-aHW" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="tee-Up-aHW" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="D8k-GW-E2d">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="D8k-GW-E2d">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -32,7 +33,8 @@
             <objects>
                 <tabBarController id="8ZO-11-yLw" customClass="MainTabBarViewController" customModule="NeighborLink" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="M7W-Ma-7ew"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="xcE-dH-Wzv">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="xcE-dH-Wzv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>

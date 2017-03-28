@@ -28,7 +28,7 @@ class MainTabBarViewController: UITabBarController {
             self.navigationController?.present(loginViewController, animated: false, completion: nil)
         }
         
-        
+        tabBar.applyStyle()
     }
     
     override func didReceiveMemoryWarning() {

@@ -8,12 +8,12 @@
 
 import UIKit
 
-class Theme {
+struct Theme {
     
-    let lightGreen = UIColor(hex: 0x5aca5c)
-    let gradientContrastLightGreen = UIColor(hex: 0x6FFF71)
-    let charcoal = UIColor(hex: 0x2f2f2f)
-    let lightBlue = UIColor(hex: 0x05B8E6)
+    static let lightGreen = UIColor(hex: 0x5aca5c)
+    static let gradientContrastLightGreen = UIColor(hex: 0x6FFF71)
+    static let charcoal = UIColor(hex: 0x2f2f2f)
+    static let lightBlue = UIColor(hex: 0x05B8E6)
     
 }
 
@@ -38,10 +38,19 @@ extension UIImageView {
         layer.borderColor = UIColor.white.cgColor
         clipsToBounds = true
     }
-    
-//    func applyWhiteBorder() {
-//        layer.borderWidth = 3.0
-//        layer.borderColor = UIColor.white.cgColor
-//        clipsToBounds = true
-//    }
+
 }
+
+extension UINavigationBar {
+    func applyStyle() {
+        barTintColor = Theme.lightBlue
+    }
+}
+
+extension UITabBar {
+    func applyStyle() {
+        tintColor = Theme.lightBlue
+    }
+}
+
+

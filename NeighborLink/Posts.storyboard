@@ -18,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Ymi-gP-LtL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hc9-Ab-rJf">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yaL-gW-fBY" customClass="PostsTableView" customModule="NeighborLink" customModuleProvider="target">
@@ -55,6 +55,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="kw2-65-aLb"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
                         <outlet property="tableView" destination="yaL-gW-fBY" id="hvP-a1-3JM"/>
                     </connections>
@@ -69,12 +70,15 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="VW2-23-AgD" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Posts" image="posts_feed_icon" id="LSb-RF-iXu"/>
                     <toolbarItems/>
-                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Adb-7p-NQ3">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Adb-7p-NQ3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="BbX-gD-301">
+                        <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
                     <connections>
                         <segue destination="DSv-an-LN7" kind="relationship" relationship="rootViewController" id="hKZ-Ej-tIQ"/>
                     </connections>
