@@ -1,3 +1,0 @@
-github "https://github.com/fenaranjo42/Authentication" "develop"
-github "Alamofire/Alamofire" ~> 4.4
-github "SwiftyJSON/SwiftyJSON"
